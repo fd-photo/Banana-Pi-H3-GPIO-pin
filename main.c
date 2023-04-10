@@ -18,11 +18,11 @@ int main(int argc, const char *argv[])
 	long steps     = atoi(argv[1]);    // argv to int
 	int  direction = atoi(argv[2]);    //
 	
-    GPIO_Init();
+        GPIO_Init();
 
 	GPIO_ConfigPin(PA, 20, OUT);       // 40 banana pi
 	GPIO_ConfigPin(PA, 21, OUT);       // 38 
-    GPIO_ConfigPin(PA, 17, OUT);       // 37
+        GPIO_ConfigPin(PA, 17, OUT);       // 37
 
 	GPIO_SetPin(PA, 17, 0);            // enable motor
 	GPIO_SetPin(PA, 21, direction);    // direction
