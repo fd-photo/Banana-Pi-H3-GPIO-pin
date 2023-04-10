@@ -12,3 +12,5 @@ gcc main.o gpio.o -o rezult
 ./result steps(strps number) direction(1 or 0)
 
 ./result 1000 1 
+
+based on https://www.programmersought.com/article/229511079746/
