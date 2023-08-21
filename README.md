@@ -9,7 +9,7 @@ gcc main.o gpio.o -o rezult
 
 // run 
 
-./result steps(strps number) direction(1 or 0)
+./result steps(stеps number) direction(1 or 0)
 
 ./result 1000 1 
 
