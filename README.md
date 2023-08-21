@@ -5,7 +5,7 @@ Banana Pi BPI-P2 Zero H3+ GPIO stepper_motor
 
 gcc -c main.c gpio.c
 
-gcc main.o gpio.o -o rezult
+gcc main.o gpio.o -o result
 
 // run 
 
